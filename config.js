@@ -4,68 +4,116 @@ window.PorfolioConfig = {
   jobDescription: 'Im an idea builder, and full-time problem solver. I specialize in turning lines of code into smooth, scalable, and user-friendly experiences.From captivating interfaces to rock-solid backend systems. I mix creativity, logic, and just the right amount of coffee to build tech that truly matters.',
   skills: [
     {
-      name: 'JavaScript',
-      description: 'Reprehenderit mollit id ad veniam.'
+      name: 'Python',
+      description: 'Reprehenderit mollit id ad veniam.',
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
     },
-    {
-      name: 'HTML',
-      description: 'Fugiat veniam esse consequat quis cillum elit consequat Lorem pariatur ipsum veniam irure incididunt non.'
-    },
-    {
-      name: 'CSS',
-      description: 'Elit tempor mollit consectetur laborum nostrud qui in.'
-    }
+
   ],
+  techLogos: [
+    {
+      name: "Python",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+    },
+    {
+      name: "Django",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg"
+    },
+    {
+      name: "Ruby",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-plain.svg"
+    },
+    {
+      name: "Ruby on rails",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rails/rails-plain.svg"
+    },
+    {
+      name: "HTML5",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg"
+    },
+    {
+      name: "CSS",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg"
+    },
+    {
+      name: "Postgresql",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain.svg"
+    },
+    {
+      name: "SQL",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-plain-wordmark.svg"
+    },
+    {
+      name: "Git",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-plain.svg"
+    },
+    {
+      name: "AWS",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
+    }
+
+  ],
+
   works: [
     {
-      name: 'Vue Stripe Checkout',
-      link: 'https://jofftiquez.github.io/vue-stripe-checkout',
-      description: 'Mollit dolor tempor adipisicing non pariatur in tempor cillum do. In officia ullamco laborum ullamco voluptate. Laboris sunt quis enim Lorem laboris aliquip duis non magna excepteur voluptate. Pariatur velit aliquip officia nulla anim reprehenderit deserunt. Sint nostrud ipsum do aliquip.'
-    },
-    {
-      name: 'ToDo App',
-      link: 'https://theuselessweb.com/',
-      description: 'Esse magna anim incididunt enim sint aute consectetur ipsum id nostrud eu do. Pariatur et anim enim aliquip anim. Laboris labore incididunt labore enim nisi elit excepteur deserunt irure exercitation exercitation. Lorem sit ad laborum sit velit veniam sit nisi nostrud occaecat duis nulla duis.'
-    },
-    {
-      name: 'A Mobile Game',
-      link: 'https://theuselessweb.com/',
-      description: 'Incididunt non cupidatat deserunt ut commodo qui non do Lorem. Qui aute minim enim sit magna est consectetur incididunt. Ex est cupidatat tempor pariatur deserunt labore tempor minim laboris magna ipsum minim ea ea. Consectetur do anim laboris nulla nisi veniam sint qui.'
+      company: "KORNER",
+      position: "BACKEND DEVELOPER",
+      duration: "August 2022 - Present",
+      description: "-Development and maintenance of the backend application using Ruby on Rails, ensuring an efficient, scalable, and maintainable architecture.\n -Creation of RESTful APIs for integration with frontend applications and external services, optimizing performance and security. \n -Collaboration in agile teams, working in interactive development cycles using Git for version control and tools like GitHub Projects for task management",
+      link: 'https://www.kornerapp.co/#',
+      location: "Remote"
     }
   ],
-  hobbies: [
+  education: [
     {
-      name: 'Rock Climbing',
-      description: 'Occaecat ipsum dolor ea ad ut irure do proident excepteur consectetur duis eu culpa velit.'
+      institution: "PLATZI ACADEMY",
+      degree: "Software Engineering",
+      description: "Formación integral en desarrollo de software, redes, bases de datos y arquitectura de sistemas.",
+      duration: "2018 – 2020"
     },
     {
-      name: 'Surfing',
-      description: 'Laboris occaecat adipisicing culpa duis aute ea excepteur quis eiusmod mollit est pariatur.'
+      institution: "AWS",
+      degree: "Developing Applications on AWS",
+      description: "Formación integral en desarrollo de software, redes, bases de datos y arquitectura de sistemas.",
+      duration: "2024 – 2025"
     },
     {
-      name: 'Rubick\'s Cube',
-      description: 'Laborum pariatur sint labore officia enim occaecat id.'
+      institution: "SMART DATA",
+      degree: "Data Analysis With SQL",
+      description: "Formación integral en desarrollo de software, redes, bases de datos y arquitectura de sistemas.",
+      duration: "2024"
     }
   ],
-  contacts: {
-    email: 'scristian1012@gmail.com',
-    phoneNo: '+57 3013674088',
-    links: [
+    hobbies: [
       {
-        name: 'GitHub',
-        link: 'https://github.com/scristiansc',
-        icon: 'mdi-github'
-      },
-      {
-        name: 'Linkedin',
-        link: 'https://www.linkedin.com/in/cristian-su%C3%A1rez-c/',
-        icon: 'mdi-linkedin'
-      },
-      {
-        name: 'Gmail',
-        link: 'mailto:scristian1012@gmail.com',
-        icon: 'mdi-gmail'
+        name: 'Rock Climbing',
+        description: 'Occaecat ipsum dolor ea ad ut irure do proident excepteur consectetur duis eu culpa velit.'
       }
-    ]
-  }
+    ],
+    contacts: {
+      email: '',
+      phoneNo: '',
+      links: [
+        {
+          name: 'GitHub',
+          link: 'https://github.com/scristiansc',
+          icon: 'mdi-github'
+        },
+        {
+          name: 'Linkedin',
+          link: 'https://www.linkedin.com/in/cristian-su%C3%A1rez-c/',
+          icon: 'mdi-linkedin'
+        },
+        {
+          name: 'Gmail',
+          link: 'mailto:scristian1012@gmail.com',
+          icon: 'mdi-gmail'
+        },
+        {
+          name: 'Whatsapp',
+          link: 'https://wa.me/573013674088',
+          icon: 'mdi-whatsapp'
+        }
+      ]
+    }
 };
