@@ -136,7 +136,7 @@
             </nav>
           </v-col>
           <v-col cols="12" md="6" data-aos="fade-up" class="text-center">
-            <v-img src="imagencs.png" alt="Foto de {{name}}" max-width="300" class="photo-style" contain></v-img>
+            <v-img src="imagencs.png" max-width="100%" class="photo-style" contain></v-img>
           </v-col>
         </v-row>
       </header>
@@ -178,7 +178,7 @@
                     {{work.position}} <br>
                     <small style="font-weight: normal;">at {{work.company}}</small>
                   </h2>
-                  <p v-html="work.description.replace(/\n/g, '<br>')"></p>
+                  <p v-html="work.description"></p>
                 </div>
                 <div style="position: absolute; top: 0; right: 16px; color: #19c113; font-size: 1.1em;">
                   {{work.duration}}
@@ -222,7 +222,9 @@
           <v-col v-for="(hobby, index) in hobbies" cols="12" :key="index">
             <v-card hover="hover" height="100%" data-aos="fade-up">
               <v-card-text class="text-center">
-                <p>I find joy in getting lost in a good book, staying active through swimming and soccer, and feeding my ever-growing curiosity by exploring new places. Traveling sparks my imagination and keeps my passion for learning alive.</p>
+                <p>I find joy in getting lost in a good book 📚, staying active through swimming 🏊‍♂️ and soccer ⚽.</p>
+                <p>Feeding my ever-growing curiosity by exploring new places🌍. </p>
+                <p>Traveling sparks my imagination ✈️ and keeps my passion for learning alive.</p>
               </v-card-text>
               <v-footer>
                 <v-spacer></v-spacer>

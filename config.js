@@ -1,7 +1,7 @@
 window.PorfolioConfig = {
   name: 'Cristian Suárez',
   jobTitle: 'Software Developer',
-  jobDescription: 'Im an idea builder, and full-time problem solver. I specialize in turning lines of code into smooth, scalable, and user-friendly experiences.From captivating interfaces to rock-solid backend systems. I mix creativity, logic, and just the right amount of coffee to build tech that truly matters.',
+  jobDescription: 'I turn coffee into code and ideas into apps that actually work (usually 😅). I build smooth interfaces, solid backends, and solve bugs like a digital exterminator. Somewhere between logic and creativity — thats where the magic happens.',
   skills: [
     {
       name: 'Python',
@@ -59,7 +59,7 @@ window.PorfolioConfig = {
       company: "KORNER",
       position: "BACKEND DEVELOPER",
       duration: "August 2022 - Present",
-      description: "-Development and maintenance of the backend application using Ruby on Rails, ensuring an efficient, scalable, and maintainable architecture.\n -Creation of RESTful APIs for integration with frontend applications and external services, optimizing performance and security. \n -Collaboration in agile teams, working in interactive development cycles using Git for version control and tools like GitHub Projects for task management",
+      description: "Built scalable backend systems with Ruby on Rails, developed RESTful APIs, and collaborated in agile teams using Git and GitHub",
       link: 'https://www.kornerapp.co/#',
       location: "Remote"
     }
