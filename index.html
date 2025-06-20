@@ -58,6 +58,48 @@
       transform: scale(1.8);
       color: #00ff00;
     }
+
+    @media screen and (max-width: 768px) {
+
+      /* Center content*/
+      header,
+      main {
+        text-align: center;
+      }
+
+      /* Ajust menu buttons */
+      nav.v-btn {
+        display: block;
+        margin: 10px 0;
+      }
+
+      /* Enlarge profile image */
+      .photo-style {
+        max-width: 120px;
+      }
+
+      /* General spacing in sections */
+      section {
+        padding: 20px 10px;
+      }
+
+      /* Reduce padding on tech logos */
+      .tech-logo-wrapper {
+        margin: 4px !important;
+      }
+
+      /* Fix font size if it's too large*/
+      h1,
+      h2 {
+        font-size: 1.4em;
+      }
+
+      /* Prevent horizontal scroll */
+      body,
+      html {
+        overflow-x: hidden;
+      }
+    }
   </style>
 
   <meta charset="UTF-8">
