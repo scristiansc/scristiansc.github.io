@@ -3,6 +3,10 @@
 
 <head>
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
     .tech-logo-wrapper {
       transition: transform 0.3s ease, box-shadow 0.3s ease;
       border-radius: 8px;
@@ -34,7 +38,7 @@
 
       filter: grayscale(20%) contrast(1.2);
 
-      max-width: 80px;
+      max-width: 120px;
       width: 100%;
       display: block;
       margin: 0 auto;
@@ -57,7 +61,6 @@
   </style>
 
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
@@ -127,7 +130,7 @@
             <h1 class="display-4 primary--text">{{name}}</h1>
             <h2 class="primary--text">{{jobTitle}}</h2>
             <p>{{jobDescription}}</p>
-            <nav class="d-flex flex-row align-center">
+            <nav class="d-flex flex-wrap justify-center align-center">
               <v-btn href="#skills" text="text" class="primary--text">/SKILLS</v-btn href="skills">
               <v-btn href="#works" text="text" class="primary--text">/EXPERIENCE</v-btn>
               <v-btn href="#education" text="text" class="primary--text">/EDUCATION</v-btn>
